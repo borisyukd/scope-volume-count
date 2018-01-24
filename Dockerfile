@@ -1,5 +1,5 @@
 # Start from weaveworks/scope, so that we have a docker client built in.
-FROM python:2
+FROM python:2-alpine3.7
 MAINTAINER Weaveworks Inc <help@weave.works>
 LABEL works.weave.role=system
 
